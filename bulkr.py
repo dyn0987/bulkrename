@@ -1,9 +1,9 @@
-import os, sys, shutil,string
+import os, sys, string
 
 # ref:https://careerkarma.com/blog/python-rename-file/,https://discuss.python.org/t/adding-numbers-to-filenames/4419
 # https://lerner.co.il/2019/03/04/understanding-python-slices/
 
-        # test dir :"C://xampp/htdocs/Py/bulkrename/test/"
+       
 def main(): 
 #   created new folder 'test' for testing
     # path2=getuserdir()  #https://www.geekpills.com/operating-system/linux/python-passing-variable-between-functions
@@ -61,6 +61,10 @@ def renamebynumbers():
         src =path2+ filename
         # dst =path2+ dst 
         # print(splicetext)
+        # rename() function will 
+        # rename all the files 
+        os.rename(src, dst) 
+        
     #    splitext() is to rename file without including the .png or whatever the file extension is to be renamed
     #    ref=https://stackoverflow.com/questions/678236/how-to-get-the-filename-without-the-extension-from-a-path-in-python
 
@@ -68,11 +72,6 @@ def renamebynumbers():
         # ex: ('my_file', '.txt') and we only need the first section, ex:'my_file', the[0] section of array for the splicetext process
         #for file_extension, we use '[1]' because we need the 2nd part of array, which is the '.txt' or the extension
 
-
-        # rename() function will 
-        # rename all the files 
-        # shutil.move(src,dst)
-        os.rename(src, dst) 
    
 
 # Driver Code 
