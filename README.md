@@ -10,8 +10,8 @@ Examples of Bulk File Rename Tools
 
 Here are some implementations of the Bulk File Rename idea:
 
-Ren
-Rename
+Ren,
+Rename,
 Technical Details
 
 User can choose the directory by entering something like C://Downloads to specify the location of the files that need to be renamed.
