@@ -16,8 +16,14 @@ Technical Details
 
 User can choose the directory by entering something like C://Downloads to specify the location of the files that need to be renamed.
 User can also choose whether to:
+
+
 -rename  by adding numbers at the end of the file name (ex:file1,file2,file3..)
+
+
 OR
+
+
 -rename  by adding alphabets at the end of the file name (ex:fileA,fileB,fileC..)
 
 This is just a test project to experiment with using Python functions. 
